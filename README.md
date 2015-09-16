@@ -16,6 +16,8 @@ Installation <a name="installation"></a>
 
 [PHP 5.4 or higher](http://www.php.net/downloads.php) is required to use it.
 
+In www dir:
+
 `$ git clone https://github.com/iriscrm/OData-base-example.git`
 
 Run `composer install` afterwards.
@@ -64,13 +66,13 @@ Usage <a name="usage"></a>
 
 Try to open links:
 
- - http://<youproject>/odata.svc/$metadata
+ - http://localhost/OData-base-example/odata.svc/$metadata
 
- - http://<youproject>/odata.svc/Products?$format=json&$skip=1&$top=14&$inlinecount=allpages&$filter=code eq 'book'
+ - http://localhost/OData-base-example/odata.svc/Products?$format=json&$skip=1&$top=14&$inlinecount=allpages&$filter=code eq 'book'
 
- - http://<youproject>/odata.svc/Products/$count?&$filter=code eq 'book'
+ - http://localhost/OData-base-example/odata.svc/Products/$count?&$filter=code eq 'book'
 
- - http://<youproject>/odata.svc/Products(2465)
+ - http://localhost/OData-base-example/odata.svc/Products(2465)
 
 For more details about URL format, see [OData documentation](http://www.odata.org/documentation/odata-version-2-0/uri-conventions/).
 
