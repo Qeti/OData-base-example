@@ -1,0 +1,39 @@
+{
+    "name": "iriscrm/OData-base-example",
+    "description": "Example of using OData on pure PHP",
+    "keywords": ["odata", "podata", "rest"],
+    "homepage": "https://github.com/iriscrm/OData-base-example#readme",
+    "type": "example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Matushenkov",
+            "email": "mnvx@yandex.ru",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/iriscrm/OData-base-example/issues",
+        "source": "https://github.com/iriscrm/OData-base-example"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "POData/POData": "dev-master",
+        "iriscrm/SimplePOData": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.9.x-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/POData/POData"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/iriscrm/SimplePOData"
+        }
+    ]
+}

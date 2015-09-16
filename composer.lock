@@ -1,0 +1,161 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ff491fa4e51d7cb370b3aa8ab6e9001d",
+    "packages": [
+        {
+            "name": "POData/POData",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/POData/POData.git",
+                "reference": "f6b725c6b3788c284a72ac8f1325e69733e9d220"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/POData/POData/zipball/f6b725c6b3788c284a72ac8f1325e69733e9d220",
+                "reference": "f6b725c6b3788c284a72ac8f1325e69733e9d220",
+                "shasum": ""
+            },
+            "require": {
+                "myclabs/php-enum": "1.2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "balihoo/phockito-unit": "1.0.0",
+                "doctrine/annotations": "1.*",
+                "hafriedlander/phockito": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "POData": "src/",
+                    "UnitTests": "tests/"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "POData Project",
+                    "email": "podataproject@gmail.com"
+                },
+                {
+                    "name": "Microsoft Open Technologies, Inc.",
+                    "email": "msopentech@microsoft.com"
+                }
+            ],
+            "description": "OData for Poor PHP Developers",
+            "keywords": [
+                "odata",
+                "rest"
+            ],
+            "support": {
+                "source": "https://github.com/POData/POData/tree/master",
+                "issues": "https://github.com/POData/POData/issues"
+            },
+            "time": "2014-12-26 23:08:40"
+        },
+        {
+            "name": "iriscrm/SimplePOData",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iriscrm/SimplePOData.git",
+                "reference": "3707a621d892b6fe3e154e9a6862787248ec3f72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iriscrm/SimplePOData/zipball/3707a621d892b6fe3e154e9a6862787248ec3f72",
+                "reference": "3707a621d892b6fe3e154e9a6862787248ec3f72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "iriscrm\\SimplePOData\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Matushenkov",
+                    "email": "mnvx@yandex.ru",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Library for simple use OData with POData library",
+            "homepage": "https://github.com/iriscrm/SimplePOData#readme",
+            "keywords": [
+                "odata",
+                "podata",
+                "rest"
+            ],
+            "support": {
+                "issues": "https://github.com/iriscrm/SimplePOData/issues",
+                "source": "https://github.com/iriscrm/SimplePOData"
+            },
+            "time": "2015-09-15 04:25:48"
+        },
+        {
+            "name": "myclabs/php-enum",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/php-enum.git",
+                "reference": "ab9e3122fb4f24bff81db37652b88cefe2b4b89c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/ab9e3122fb4f24bff81db37652b88cefe2b4b89c",
+                "reference": "ab9e3122fb4f24bff81db37652b88cefe2b4b89c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MyCLabs": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP Enum implementation",
+            "homepage": "http://github.com/myclabs/php-enum",
+            "keywords": [
+                "enum"
+            ],
+            "time": "2013-07-24 12:08:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "podata/podata": 20,
+        "iriscrm/simplepodata": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
