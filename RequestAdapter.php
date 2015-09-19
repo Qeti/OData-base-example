@@ -46,7 +46,13 @@ class RequestAdapter implements IHTTPRequest
      */
     public function getQueryParameters()
     {
-        return $this->request;
+        $data = [];
+        if (is_array($this->request)) {
+            foreach ($this->request as $key => $value) {
+                $data[] = [$key => $value];
+            }
+        }
+        return $data;
     }
 
     /**
