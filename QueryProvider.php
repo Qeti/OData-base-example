@@ -33,7 +33,7 @@ class QueryProvider extends BaseQueryProvider
         $statement->execute($parameters);
         $data = $statement->fetchAll(PDO::FETCH_COLUMN);
         if ($data) {
-            return $data[0][0];
+            return $data[0];
         }
         return null;
     }
