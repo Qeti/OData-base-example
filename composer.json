@@ -18,7 +18,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "POData/POData": "dev-master",
+        "POData/POData": "dev-develop",
         "iriscrm/SimplePOData": "dev-master"
     },
     "extra": {
@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/POData/POData"
+            "url": "https://github.com/iriscrm/POData"
         },
         {
             "type": "vcs",
