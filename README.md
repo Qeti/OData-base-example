@@ -18,7 +18,7 @@ Installation <a name="installation"></a>
 
 In www dir:
 
-`$ git clone https://github.com/iriscrm/OData-base-example.git`
+`$ git clone https://github.com/mnvx/OData-base-example.git`
 
 Run `composer install` afterwards.
 
@@ -83,7 +83,7 @@ with it as long as you mention my name and include the [license file][license]. 
 
 [MIT License]: http://opensource.org/licenses/MIT
 
-[license]: https://github.com/iriscrm/SimplePOData/blob/master/LICENSE
+[license]: https://github.com/mnvx/SimplePOData/blob/master/LICENSE
 
 Contact
 -------
