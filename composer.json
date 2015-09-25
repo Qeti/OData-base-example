@@ -1,8 +1,8 @@
 {
-    "name": "mnvx/OData-base-example",
+    "name": "qeti/OData-base-example",
     "description": "Example of using OData on pure PHP",
     "keywords": ["odata", "podata", "rest"],
-    "homepage": "https://github.com/mnvx/OData-base-example#readme",
+    "homepage": "https://github.com/qeti/OData-base-example#readme",
     "type": "example",
     "license": "MIT",
     "authors": [
@@ -13,21 +13,21 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/mnvx/OData-base-example/issues",
-        "source": "https://github.com/mnvx/OData-base-example"
+        "issues": "https://github.com/qeti/OData-base-example/issues",
+        "source": "https://github.com/qeti/OData-base-example"
     },
     "require": {
         "php": ">=5.4.0",
-        "mnvx/SimplePOData": ">=0.9.1"
+        "qeti/SimplePOData": ">=0.9.1"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mnvx/POData"
+            "url": "https://github.com/qeti/POData"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/mnvx/SimplePOData"
+            "url": "https://github.com/qeti/SimplePOData"
         }
     ]
 }
