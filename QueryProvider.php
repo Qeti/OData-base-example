@@ -1,6 +1,6 @@
 <?php
 
-use iriscrm\SimplePOData\BaseQueryProvider;
+use qeti\SimplePOData\BaseQueryProvider;
 
 class QueryProvider extends BaseQueryProvider
 {

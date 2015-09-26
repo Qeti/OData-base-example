@@ -1,7 +1,7 @@
 <?php
 
 use POData\OperationContext\ServiceHost;
-use iriscrm\SimplePOData\DataService;
+use qeti\SimplePOData\DataService;
 
 require(__DIR__ . '/vendor/autoload.php');
 

@@ -2,9 +2,9 @@
 
 namespace models;
 
-use iriscrm\SimplePOData\EntityTrait;
+use qeti\SimplePOData\EntityTrait;
 
-class Product extends \stdClass {
+class Product {
 
     // This trait contains method for fields mapping (between database table and this class)
     use EntityTrait;
