@@ -62,6 +62,6 @@ class RequestAdapter implements IHTTPRequest
      */
     public function getMethod()
     {
-        return new HTTPRequestMethod('GET');
+        return new HTTPRequestMethod($_SERVER['REQUEST_METHOD']);
     }
 }
