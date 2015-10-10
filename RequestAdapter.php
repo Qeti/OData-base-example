@@ -3,8 +3,9 @@
 use POData\Common\ODataConstants;
 use POData\OperationContext\HTTPRequestMethod;
 use POData\OperationContext\IHTTPRequest;
+use POData\OperationContext\Web\IncomingRequest;
 
-class RequestAdapter implements IHTTPRequest
+class RequestAdapter extends IncomingRequest implements IHTTPRequest
 {
     protected $request;
 
@@ -21,21 +22,6 @@ class RequestAdapter implements IHTTPRequest
     public function getRawUrl()
     {
         return $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'];
-    }
-
-    /**
-     * get the specific request headers
-     *
-     * @param string $key The header name
-     *
-     * @return string|null value of the header, NULL if header is absent.
-     */
-    public function getRequestHeader($key)
-    {
-        if (isset($this->request[$key])) {
-            return $headers = $this->request[$key];
-        }
-        return null;
     }
 
     /**

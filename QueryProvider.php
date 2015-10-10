@@ -38,4 +38,16 @@ class QueryProvider extends BaseQueryProvider
         return null;
     }
 
+    /**
+     * Execute query
+     * @param string $sql SQL query
+     * @param array $parameters Parameters for SQL query
+     * @return mixed|null
+     */
+    protected function execute($sql, $parameters = null)
+    {
+        $statement = $this->db->prepare($sql);
+        return $statement->execute($parameters);
+    }
+
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01b607a8aeaaf0a935cc7cea4ee08f16",
+    "hash": "cedebf294d0d0f783ddd20424b3305f7",
     "packages": [
         {
             "name": "myclabs/php-enum",
@@ -92,16 +92,16 @@
         },
         {
             "name": "qeti/simple-podata",
-            "version": "v0.9.5",
+            "version": "v0.9.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Qeti/SimplePOData.git",
-                "reference": "32572342ac663838088fcb337e11f33a2e7a5a63"
+                "reference": "7092727bd817ffd4b55f4b04912908b6218dc9e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Qeti/SimplePOData/zipball/32572342ac663838088fcb337e11f33a2e7a5a63",
-                "reference": "32572342ac663838088fcb337e11f33a2e7a5a63",
+                "url": "https://api.github.com/repos/Qeti/SimplePOData/zipball/7092727bd817ffd4b55f4b04912908b6218dc9e1",
+                "reference": "7092727bd817ffd4b55f4b04912908b6218dc9e1",
                 "shasum": ""
             },
             "require": {
@@ -132,13 +132,47 @@
                 "podata",
                 "rest"
             ],
-            "time": "2015-09-26 04:17:22"
+            "time": "2015-09-26 04:55:50"
+        },
+        {
+            "name": "verdant/xml2array",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rentpost/xml2array.git",
+                "reference": "8afd54fbb08c02c32884b5da41ac75d42a14f048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rentpost/xml2array/zipball/8afd54fbb08c02c32884b5da41ac75d42a14f048",
+                "reference": "8afd54fbb08c02c32884b5da41ac75d42a14f048",
+                "shasum": ""
+            },
+            "require": {
+                "lib-libxml": "*",
+                "lib-pcre": "*",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Verdant\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Convert from XML to array, array to XML, based on libs from lalit.org",
+            "time": "2015-04-23 03:08:15"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "verdant/xml2array": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
